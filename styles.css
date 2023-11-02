@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
@@ -5,6 +6,46 @@
 
 body{
     background-color: #F8F1D9;
+}
+
+.bar{
+    background-color: #15639d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 150px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.logo-img{
+    width: 80px;
+    margin-left: 12px;
+}
+
+.user-img{
+    width: 40px;
+}
+
+.nav-bar-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bar-left a{
+    margin: 10px;
+}
+
+.nav-bar-right a{
+    margin: 10px 30px 10px 40px;
+}
+
+.nav-bar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .frame-1{
@@ -46,7 +87,6 @@ body{
     margin-left: 20px;
     margin-right: 20px;
 }
-
 
 .about-1{
     display: flex;
@@ -119,18 +159,13 @@ body{
     border-color: #531f33;
 }
 
+
 .box-price .button-price{
     color: #F8F1D9;
     background-color:#531f33;
     width: 215px;
     height: 35px;
     border: none;
-}
-
-
-.price-2 .button-price{
-    color:#531f33;
-    background-color:#F8F1D9;
 }
 
 .frame-4{
@@ -262,6 +297,41 @@ body{
         -1px 0px 2px rgba(255, 255, 255, 0);
 }
 
+footer{
+    background-color: #15629d;
+    display: flex;
+    min-height: 45vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer1{
+    width: 400px;
+    margin-left: 150px;
+}
+
+.footer1 h5{
+    margin-bottom: 25px;
+}
+
+.footer1 p{
+    margin-bottom: 30px;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer3{
+    margin-right: 150px;
+}
+
+.footer3 p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .frame-5{
     display: flex;
     flex-direction: column;
@@ -297,7 +367,6 @@ body{
     flex-direction: column;
     align-items: center;
 }
-
 
 .frame-6{
     display: flex;
