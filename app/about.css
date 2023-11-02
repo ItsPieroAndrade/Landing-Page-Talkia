@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+
+body{
+    background-color: #F8F1D9;
+}
+
+.bar{
+    background-color: #15639d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 150px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.logo-img{
+    width: 80px;
+    margin-left: 12px;
+}
+
+.user-img{
+    width: 40px;
+}
+
+.nav-text{
+    color: #E6E0D1;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-bar-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bar-left a{
+    margin: 10px;
+}
+
+.nav-bar-right a{
+    margin: 10px 30px 10px 40px;
+}
+
+.nav-bar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    height: 120vh;
+    justify-content: space-evenly;
+    padding-top: 110px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-a img{
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.container-a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.container-a p{
+    width: 40%;
+    margin: 20px;
+    font-size: 20px;
+    color: #531f33;
+}
+
+.tittle{
+    color: #531f33;
+    font-size: 50px;
+}
+
+.title-text{
+    text-decoration: none;
+    color: #E6E0D1;
+    font-size: 25px;
+}
