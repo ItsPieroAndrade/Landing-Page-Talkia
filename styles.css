@@ -251,7 +251,9 @@ body{
 }
 
 .frame-4 h1{
+    color: #531f33;
     font-size: 45px;
+    font-family: 'COCOGOOSE', sans-serif;
     font-weight: 100;
 }
 
@@ -480,7 +482,9 @@ footer{
 }
 
 .frame-6 h1{
+    color: #531f33;
     font-size: 45px;
+    font-family: 'COCOGOOSE', sans-serif;
     font-weight: 100;
     margin-bottom: 30px;
 }
@@ -523,6 +527,7 @@ footer{
 
 .card .comment-text{
     width: 400px;
+    color: #531f33;
     font-size: 20px;
 }
 
@@ -533,11 +538,13 @@ footer{
 }
 
 .name{
+    color: #531f33;
     font-size: 25px;
     text-align: center;
 }
 
 .level{
+    color: #E6337C;
     font-size: 20px;
     text-align: center;
 }
