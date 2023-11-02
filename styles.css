@@ -28,12 +28,14 @@ body{
 }
 
 .presentation button{
+    color: #531f33;
     background-color: #F8F1D9;
     width: 215px;
     height: 35px;
     margin-top: 20px;
     border-color: #531f33;
     border-width: 3px;
+    font-size: 18px;
 }
 
 .frame-2{
@@ -55,11 +57,123 @@ body{
 }   
 
 .about-1 button{
+    color: #531f33;
     background-color: #F8F1D9;
     width: 215px;
     height: 35px;
     margin-top: 20px;
     border-color: #531f33;
     border-width: 3px;
+    font-size: 18px;
 }
+
+.frame-3{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #d0cbbd;
+}
+
+.box-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    width: 80%;
+}
+
+.price-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 258px;
+    height: 80%;
+    justify-content: space-between;
+    padding: 30px;
+    border-style: solid;
+    border-color: #531f33;
+}
+
+.price-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 258px;
+    justify-content: space-between;
+    padding: 30px;
+    border: solid #531f33;
+    background-color: #531f33;
+}
+
+.price-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 258px;
+    justify-content: space-between;
+    padding: 30px;
+    border: solid;
+    border-color: #531f33;
+}
+
+.box-price .button-price{
+    color: #F8F1D9;
+    background-color:#531f33;
+    width: 215px;
+    height: 35px;
+    border: none;
+}
+
+.price-2 .price-t{
+    color: #F8F1D9;
+}
+
+
+.frame-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 85vh;
+    justify-content: center;
+}
+
+.frame-5 button{
+    color: #531f33;
+    background-color: #F8F1D9;
+    width: 215px;
+    height: 35px;
+    border-color: #531f33;
+    border-width: 3px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.services-box img{
+    width: 190px;
+}
+
+.services-box{
+    display: flex;
+    min-height: 50vh;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.services-box .services-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
 
