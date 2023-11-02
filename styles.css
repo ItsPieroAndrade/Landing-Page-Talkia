@@ -123,6 +123,7 @@ body{
     color: #531f33;
     font-size: 45px;
     font-family: 'COCOGOOSE', sans-serif;
+    font-size: 45px;
     font-weight: 100;
 }
 
@@ -133,6 +134,9 @@ body{
     height: 35px;
     margin-top: 20px;
     border-color: #531f33;
+    width: 215px;
+    height: 35px;
+    margin-top: 20px;
     border-width: 3px;
     font-size: 18px;
 }
@@ -193,6 +197,7 @@ body{
     justify-content: space-between;
     padding: 30px;
     border: solid;
+    border-color: #531f33;
 }
 
 .box-price h3{
@@ -209,6 +214,7 @@ body{
 }
 
 .box-price .button-price{
+    color: #F8F1D9;
     background-color:#531f33;
     width: 215px;
     height: 35px;
@@ -383,6 +389,7 @@ footer{
 
 .footer2 a{
     text-decoration: none;
+    margin-top: 10px;
 }
 
 .footer3{
@@ -404,6 +411,7 @@ footer{
 
 .frame-5 h1{
     font-size: 45px;
+    font-family: 'COCOGOOSE', sans-serif;
     font-weight: 100;
     margin-bottom: 30px;
 }
