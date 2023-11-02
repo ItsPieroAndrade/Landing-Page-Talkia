@@ -123,7 +123,6 @@ body{
     color: #531f33;
     font-size: 45px;
     font-family: 'COCOGOOSE', sans-serif;
-    font-size: 45px;
     font-weight: 100;
 }
 
@@ -134,9 +133,6 @@ body{
     height: 35px;
     margin-top: 20px;
     border-color: #531f33;
-    width: 215px;
-    height: 35px;
-    margin-top: 20px;
     border-width: 3px;
     font-size: 18px;
 }
@@ -151,8 +147,10 @@ body{
 }
 
 .frame-3 h1{
+    color: #531f33;
     margin-bottom: 10px;
     font-size: 45px;
+    font-family: 'COCOGOOSE', sans-serif;
     font-weight: 100;
     
 }
@@ -174,6 +172,7 @@ body{
     justify-content: space-between;
     padding: 30px;
     border-style: solid;
+    border-color: #531f33;
 }
 
 .price-2{
@@ -202,15 +201,18 @@ body{
 
 .box-price h3{
     font-size: 26px;
+    color: #531f33;
 }
 
 .box-price p{
     font-size: 20px;
+    color: #531f33;
     text-align: center;
 }
 
 .box-price .price-t{
     font-size: 45px;
+    color: #531f33;
 }
 
 .box-price .button-price{
@@ -222,6 +224,22 @@ body{
     font-size: 18px;
 }
 
+.price-2 h3{
+    color:#F8F1D9;
+}
+
+.price-2 .price-t{
+    color: #F8F1D9;
+}
+
+.price-2 p{
+    color: #F8F1D9;
+}
+
+.price-2 .button-price{
+    color:#531f33;
+    background-color:#F8F1D9;
+}
 
 .frame-4{
     display: flex;
@@ -410,6 +428,7 @@ footer{
 }
 
 .frame-5 h1{
+    color: #531f33;
     font-size: 45px;
     font-family: 'COCOGOOSE', sans-serif;
     font-weight: 100;
@@ -417,6 +436,7 @@ footer{
 }
 
 .frame-5 button{
+    color: #531f33;
     background-color: #F8F1D9;
     width: 215px;
     height: 35px;
@@ -445,6 +465,7 @@ footer{
 }
 
 .item-text{
+    color: #531f33;
     font-size: 20px;
     margin-top: 15px;
     text-align: center;
