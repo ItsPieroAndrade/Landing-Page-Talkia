@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talkia.com</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="assets/WhatsApp_Image_2023-09-22_at_1.14.12_PM-removebg-preview.ico" type="image/x-icon">
     <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
@@ -35,7 +36,7 @@
         <section id="about-we" class="frame-2" data-aos="fade-up">
             <div class="about-1">
                 <h2>Sobre nosotros</h2>
-                <a href=""><button type="button">Quiero saber más</button></a>
+                <a href="app/about.html"><button type="button">Quiero saber más</button></a>
             </div>
             <p>Somos un grupo de estudiantes de la UPC que desean ayudar a estudiantes universitarios a mejorar sus habilidades de habla en inglés y quechua de una manera divertida.</p>
         </section>
@@ -190,5 +191,12 @@
             <p>PHONES<br>(808) 555-011 or (303) 555-0105</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
 </body>
 </html>

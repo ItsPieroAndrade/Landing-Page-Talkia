@@ -29,6 +29,7 @@ body{
 }
 
 .nav-text{
+    color: #E6E0D1;
     text-decoration: none;
     font-size: 20px;
 }
@@ -383,6 +384,7 @@ footer{
     min-height: 45vh;
     align-items: center;
     justify-content: space-between;
+    color: #E6E0D1;
 }
 
 .footer1{
@@ -410,6 +412,7 @@ footer{
 .footer2 a{
     text-decoration: none;
     margin-top: 10px;
+    color: #E6E0D1;
 }
 
 .footer3{
