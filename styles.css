@@ -196,12 +196,18 @@ body{
     font-size: 45px;
 }
 
+
 .box-price .button-price{
+    color: #F8F1D9;
     background-color:#531f33;
     width: 215px;
     height: 35px;
     border: none;
     font-size: 18px;
+}
+
+.price-2 .button-price{
+    background-color:#F8F1D9;
 }
 
 .frame-4{
@@ -356,11 +362,19 @@ footer{
     flex-direction: column;
 }
 
+.footer2 h5{
+    margin-bottom: 15px;
+}
+
 
 .footer3{
     margin-right: 150px;
 }
 
+.footer3 p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 .frame-5{
     display: flex;
@@ -376,10 +390,13 @@ footer{
     margin-bottom: 30px;
 }
 
+
 .frame-5 button{
+    color: #531f33;
     background-color: #F8F1D9;
     width: 215px;
     height: 35px;
+    border-color: #531f33;
     border-width: 3px;
     font-size: 18px;
     margin-top: 30px;
