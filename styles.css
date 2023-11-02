@@ -28,6 +28,11 @@ body{
     width: 40px;
 }
 
+.nav-text{
+    text-decoration: none;
+    font-size: 20px;
+}
+
 .nav-bar-left{
     display: flex;
     flex-direction: row;
@@ -115,7 +120,6 @@ body{
 }
 
 .about-1 button{
-    background-color: #F8F1D9;
     width: 215px;
     height: 35px;
     margin-top: 20px;
@@ -136,6 +140,7 @@ body{
     margin-bottom: 10px;
     font-size: 45px;
     font-weight: 100;
+    
 }
 
 .box-price{
@@ -178,6 +183,7 @@ body{
     justify-content: space-between;
     padding: 30px;
     border: solid;
+    border-color: #531f33;
 }
 
 .box-price h3{
@@ -194,11 +200,14 @@ body{
 }
 
 .box-price .button-price{
+    color: #F8F1D9;
+    background-color:#531f33;
     width: 215px;
     height: 35px;
     border: none;
     font-size: 18px;
 }
+
 
 .frame-4{
     display: flex;
@@ -340,7 +349,6 @@ footer{
     min-height: 45vh;
     align-items: center;
     justify-content: space-between;
-    color: #E6E0D1;
 }
 
 .footer1{
@@ -348,9 +356,26 @@ footer{
     margin-left: 150px;
 }
 
+.footer1 h5{
+    margin-bottom: 25px;
+}
+
+.footer1 p{
+    margin-bottom: 30px;
+}
+
 .footer2{
     display: flex;
     flex-direction: column;
+}
+
+.footer2 h5{
+    margin-bottom: 15px;
+}
+
+.footer2 a{
+    text-decoration: none;
+    margin-top: 10px;
 }
 
 .footer3{
@@ -372,6 +397,7 @@ footer{
 
 .frame-5 h1{
     font-size: 45px;
+    font-family: 'COCOGOOSE', sans-serif;
     font-weight: 100;
     margin-bottom: 30px;
 }
@@ -380,6 +406,7 @@ footer{
     background-color: #F8F1D9;
     width: 215px;
     height: 35px;
+    border-color: #531f33;
     border-width: 3px;
     font-size: 18px;
     margin-top: 30px;
