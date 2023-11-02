@@ -68,14 +68,23 @@ body{
     margin-left: 10%;
 }
 
+.presentation h1{
+    font-size: 64px;
+}
+
+.presentation p{
+    margin-top: 40px;
+    font-size: 20px;
+    width: 465px;
+}
+
 .presentation button{
-    color: #531f33;
     background-color: #F8F1D9;
     width: 215px;
     height: 35px;
     margin-top: 20px;
-    border-color: #531f33;
     border-width: 3px;
+    font-size: 18px;
 }
 
 .frame-2{
@@ -88,6 +97,10 @@ body{
     margin-right: 20px;
 }
 
+.frame-2 p{
+    font-size: 20px;
+}
+
 .about-1{
     display: flex;
     flex-direction: column;
@@ -96,14 +109,18 @@ body{
     margin-left: 30px;
 }   
 
+.about-1 h2{
+    font-size: 45px;
+    font-weight: 100;
+}
+
 .about-1 button{
-    color: #531f33;
     background-color: #F8F1D9;
     width: 215px;
     height: 35px;
     margin-top: 20px;
-    border-color: #531f33;
     border-width: 3px;
+    font-size: 18px;
 }
 
 .frame-3{
@@ -132,7 +149,6 @@ body{
     justify-content: space-between;
     padding: 30px;
     border-style: solid;
-    border-color: #531f33;
 }
 
 .price-2{
@@ -159,13 +175,16 @@ body{
     border-color: #531f33;
 }
 
-
 .box-price .button-price{
     color: #F8F1D9;
     background-color:#531f33;
     width: 215px;
     height: 35px;
     border: none;
+}
+
+.price-2 .button-price{
+    background-color:#F8F1D9;
 }
 
 .frame-4{
@@ -303,6 +322,7 @@ footer{
     min-height: 45vh;
     align-items: center;
     justify-content: space-between;
+    color: #E6E0D1;
 }
 
 .footer1{
@@ -310,18 +330,15 @@ footer{
     margin-left: 150px;
 }
 
-.footer1 h5{
-    margin-bottom: 25px;
-}
-
-.footer1 p{
-    margin-bottom: 30px;
-}
-
 .footer2{
     display: flex;
     flex-direction: column;
 }
+
+.footer2 h5{
+    margin-bottom: 15px;
+}
+
 
 .footer3{
     margin-right: 150px;
@@ -347,6 +364,7 @@ footer{
     height: 35px;
     border-color: #531f33;
     border-width: 3px;
+    font-size: 18px;
     margin-top: 30px;
 }
 
