@@ -10,18 +10,29 @@
     <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
 </head>
 <body>
-    <div class="bar">
-        <div class="nav-bar-left">
-            <a href=""><img class="logo-img" src="assets/WhatsApp_Image_2023-09-22_at_1.14.12_PM-removebg-preview.png" alt="Talkia.com"></a>
-            <a href="#about-we" class="nav-text">Sobre Nosotros</a>
-            <a href="#around" class="nav-text">Nuestro entorno virtual</a>
-            <a href="#price" class="nav-text">Precios </a>
+    <header class="header">
+        <div class="back">
+            <div class="menu container">
+                <h1>TALKIA</h1>
+                <input type="checkbox" id="menu">
+                <label for="menu">
+                    <img src="assets/menu.png" class="menu-icono" alt="icono del menu">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#Ver-mas">Sobre Nosotros</a></li>
+                        <li><a href="#SobreBagUPC">Nuestros Precios</a></li>
+
+                        <li><a href="#">Iniciar Sesión</a></li>
+                        <li><a href="#">Registrate</a></li>
+                        
+                    </ul>
+                </nav>        
+            </div>
         </div>
-        <div class="nav-bar-right">
-            <p class="nav-text">EN</p>
-            <a href=""><img class="user-img" src="assets/user.png" alt=""></a>
-        </div>
-    </div>
+
+    </header>
     <main>
         <section id="inicio" class="frame-1" data-aos="fade-up">
             <div class="presentation">
@@ -31,7 +42,7 @@
                     <button type="button">Quiero empezar</button>
                 </a>
             </div>
-            <img src="app/images/hero.png" alt="">
+            <img  class="img-hero" src="app/images/hero.png" alt="">
         </section>
         <section id="about-we" class="frame-2" data-aos="fade-up">
             <div class="about-1">
@@ -46,7 +57,7 @@
                 <div class="price-1">
                     <h3>Mensual</h3>
                     <p class="price-t">S/.50</p>
-                    <p>Precio base para que conozcas la app</p>
+                    <p class="text-pp">Precio base para que conozcas la app</p>
                     <a href="">
                         <button class="button-price" type="button">Comprar Ahora</button>
                     </a>
@@ -54,7 +65,7 @@
                 <div class="price-2">
                     <h3>Semestral</h3>
                     <p class="price-t">S/.290</p>
-                    <p>El precio perfecto para que inicies a aprender</p>
+                    <p class="text-pp">El precio perfecto para que inicies a aprender</p>
                     <a href="">
                         <button class="button-price" type="button">Comprar Ahora</button>
                     </a>
@@ -62,7 +73,7 @@
                 <div class="price-3">
                     <h3>Anual</h3>
                     <p class="price-t">S/.500</p>
-                    <p>Paga 10 meses y estudias por 12</p>
+                    <p class="text-pp">Paga 10 meses y estudias por 12</p>
                     <a href="">
                         <button class="button-price" type="button">Comprar Ahora</button>
                     </a>
@@ -75,22 +86,22 @@
                 <div class="services-item">
                     <img src="assets/star.png" alt="">
                     <P class="item-text">Aprende idiomas</P>
-                    <p class="item-text">TALKIA permite que a través de juegos puedas aprender inglés o quechua</p>
+                    <p id="text-ss"class="item-text">TALKIA permite que a través de juegos puedas aprender inglés o quechua</p>
                 </div>
-                <div class="services-item">
+                <div id="x1" class="services-item">
                     <img src="assets/star.png" alt="">
                     <P class="item-text">Haz nuevos amigos</P>
-                    <p class="item-text">A través de TALKIA podrás interactuar con muchos estudiantes que tienen ganas de aprender un nuevo idioma.</p>
+                    <p id="text-ss" class="item-text">A través de TALKIA podrás interactuar con muchos estudiantes que tienen ganas de aprender un nuevo idioma.</p>
                 </div>
                 <div class="services-item">
                     <img src="assets/star.png" alt="">
                     <P class="item-text">Recursos multimedia</P>
-                    <p class="item-text">Con TALKIA siempre tendrás una nueva actividad divertida para aprender inglés o quechua.</p>
+                    <p id="text-ss" class="item-text">Con TALKIA siempre tendrás una nueva actividad divertida para aprender inglés o quechua.</p>
                 </div>
-                <div class="services-item">
+                <div id="x2" class="services-item">
                     <img src="assets/star.png" alt="">
                     <P class="item-text">Experiencias única</P>
-                    <p class="item-text">Con TALKIA podrás adentrarte a un entorno virtual para desarrollar tus habilidades lingüísticas con la compañía de una IA.</p>
+                    <p id="text-ss" class="item-text">Con TALKIA podrás adentrarte a un entorno virtual para desarrollar tus habilidades lingüísticas con la compañía de una IA.</p>
                 </div>
             </div>
         </section>
@@ -171,26 +182,48 @@
             </div>
         </section>
     </main>
-    <footer data-aos="fade-up">
-        <div class="footer1">
-            <h5>TALKIA</h5>
-            <p>Es una startup dedicada a la difusión del idioma inglés y qechua. Nos enfocamos en los estudiantes universitarios debido a que el manejo de un segundo idioma es muy importante para acceder a nuevas oportunidades.</p>
-            <p>©  2023 Next Evolution. Todos los derechos reservados</p>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h3>TALKIA</h3>
+                    <ul>
+                        <li>Es una startup dedicada a la difusión del idioma inglés y qechua. Nos enfocamos en los estudiantes universitarios debido a que el manejo de un segundo idioma es muy importante para acceder a nuevas oportunidades.</li>
+                        <li>©  2023 Next Evolution. Todos los derechos reservados</li>
+                        
+    
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>NAVEGACIÓN</h3>
+                    <ul>
+                        <li><a href="#about-we">Sobre Nosotros</a></li>
+                        <li><a href="#price">Precios</a></li>
+                        <li><a href="#services">Nuestros Servicios</a></li>
+                        <li><a href="#around">Nuestro Entorno virtual</a></li>
+                        <li><a href="#comments">Comentarios</a></li>
+                            
+    
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>CONTACTOS</h3>
+                        <ul>
+                            <li>EMAIL</li>
+                            <li>TalkiaLearning@gmail.com</li>
+                            <li>PHONES</li>
+                            <li>(808)555-011 or (303)555-0105</li>
+                        </ul>
+                    
+                </div>
+            </div>
         </div>
-        <div class="footer2">
-            <h5>NAVEGACIÓN</h5>
-            <a href="#about-we">Sobre Nosotros</a>
-            <a href="#price">Precios</a>
-            <a href="#services">Nuestros Servicios</a>
-            <a href="#around">Nuestro Entorno virtual</a>
-            <a href="#comments">Comentarios</a>
-        </div>
-        <div class="footer3">
-            <h5>CONTACTOS</h5>
-            <p>EMAIL<br>TalkiaLearning@gmail.com<br></p>
-            <p>PHONES<br>(808) 555-011 or (303) 555-0105</p>
-        </div>
+
+
     </footer>
+    
+    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="main.js"></script>
     <script>
