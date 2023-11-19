@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/WhatsApp_Image_2023-09-22_at_1.14.12_PM-removebg-preview.ico" type="image/x-icon">
+        <title>Talkia.com </title>
+            <link rel="stylesheet" href="recover.css" type="text/css">
+        <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+        <script>
+            function validarFormulario() {
+              var campo1 = document.getElementById("campo1").value;
+
+
+                if (campo1 === "") {
+                  alert("Por favor, complete todos los campos antes de continuar.");
+                }else {
+                // Si todos los campos están completos, redirige al usuario a la URL especificada
+                window.location.href = "send_mail.html";
+                }           
+            }
+        </script>
+
+    </head>
+    <body>
+       <div class="LogoP"><img src="images/WhatsApp_Image_2023-09-22_at_1.14.12_PM-removebg-preview.png" alt=""></div>
+       <div class="BienvenidaGeneral">
+                <h1 id="Bienvenido">¡Bienvenida a TALKIA!</h1>
+                <h3 id="Registrarse">Recupera tu Contraseña</h3>
+                <p id="texto">Escribe tu correo para poder enviar las instrucciones de como recuperar tu contraseña</p>
+                <div class="b1">
+                    <input id="campo1" type="email" placeholder="Ingresa Correo" required></input >
+                </div>
+                <p></p>
+                <input id= "b2" type="submit" onclick="validarFormulario()" value="Aceptar">
+       </div>
+    </body>
+</html>

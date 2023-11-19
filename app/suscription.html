@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talkia.com</title>
+    <link rel="stylesheet" href="suscription.css">
+    <link rel="shortcut icon" href="images/WhatsApp_Image_2023-09-22_at_1.14.12_PM-removebg-preview.ico" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+</head>
+<body>
+    <header class="bar">
+        <a href="main.html"><img class="logo-img" src="images/WhatsApp_Image_2023-09-22_at_1.14.12_PM-removebg-preview.png" alt="Talkia.com"></a>
+        <span></span>
+        <a class="title-text" href="main.html"><h1>TALKIA</h1></a>
+        <div class="nav-bar-right">
+            <a class="item-text" href="main.html">
+                <img src="images/i1.png" alt="">
+                <p>Inicio</p>
+            </a>
+            <a class="item-text" href="settings.html">
+                <img src="images/i2.png" alt="">
+                <p>Ajustes</p>
+            </a>
+            <a class="item-text" href="profile.html">
+                <img src="images/i3.png" alt="">
+                <p>Mi cuenta</p>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="container-section">
+            <h1 class="title-section">Plan actual</h1>
+            <div class="container-s">
+                <p> Suscipción mensual</p>
+                <h4>S/. xxx.xx</h4>
+            </div>
+            <button type="button" id="Cambiar">Cambiar plan</button>
+            <div class="modal-container" id="modal_container">
+                <div class="modal">
+                    <h1>Cambio de Plan</h1>
+                    <div class="container-plan">
+                        <div class="plan">
+                            <div class="plan-data">
+                                <p>Suscripción mensual</p>
+                                <h4>S/. xxx.xx</h4>
+                            </div>
+                            <img class="check-circle" src="images/circle2.png" alt="">
+                        </div>
+                        <div class="plan">
+                            <div class="plan-data">
+                                <p>Suscripción semestral</p>
+                                <h4>S/. xxx.xx</h4>
+                            </div>
+                            <img class="check-circle" src="images/circle1.png" alt="">
+                        </div>
+                        <div class="plan">
+                            <div class="plan-data">
+                                <p>Suscripción anual</p>
+                                <h4>S/. xxx.xx</h4>
+                            </div>
+                            <img class="check-circle" src="images/circle1.png" alt="">
+                        </div>
+                    </div>
+                    <button type="button" id="Cerrar">Confirmar</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-section">
+            <h1 class="title-section">Mis tarjetas</h1>
+            <img class="tarjet" src="images/t2.png" alt="">
+            <button type="button">Agregar método de pago</button>
+            <img class="tarjet" src="images/t1.png" alt="">
+        </div>
+        <div class="container-section">
+            <h1 class="title-section">Registro de pagos</h1>
+            <div class="container-pay">
+                <div class="pay">
+                    <p>Asunto: Suscripción mensual</p>
+                    <p>Fecha: 19/08/2024</p>
+                    <p>Monto:</p>
+                    <h4>S/. xxx.xx</h4>
+                </div>
+                <div class="pay">
+                    <p>Asunto: Suscripción anual</p>
+                    <p>Fecha: 19/06/2023</p>
+                    <p>Monto:</p>
+                    <h4>S/. xxx.xx</h4>
+                </div>
+                <div class="pay">
+                    <p>Asunto: Suscripción mensual</p>
+                    <p>Fecha: 18/05/2023</p>
+                    <p>Monto:</p>
+                    <h4>S/. xxx.xx</h4>
+                </div>
+                <div class="pay">
+                    <p>Asunto: Suscripción semestral</p>
+                    <p>Fecha: 08/01/2023</p>
+                    <p>Monto:</p>
+                    <h4>S/. xxx.xx</h4>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="client/CambiarPlan.js"></script>
+</body>
+</html>

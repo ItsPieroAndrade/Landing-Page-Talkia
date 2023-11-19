@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/WhatsApp_Image_2023-09-22_at_1.14.12_PM-removebg-preview.ico" type="image/x-icon">
+        <title>Talkia.com </title>
+        <link rel="stylesheet" href="sign_in.css" type="text/css">
+        <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+        <script>
+            function validarFormulario() {
+              var campo1 = document.getElementById("campo1").value;
+              var campo2 = document.getElementById("campo2").value;
+              var campo3 = document.getElementById("campo3").value;
+              var campo4 = document.getElementById("campo4").value;
+              var campo5 = document.getElementById("campo5").value;
+
+                if (campo1 === "" || campo2 === "" || campo3 === "" || campo4 === "" || campo5 === "") {
+                  alert("Por favor, complete todos los campos antes de continuar.");
+                }else {
+                // Si todos los campos están completos, redirige al usuario a la URL especificada
+                window.location.href = "InicieSesion.html";
+                }           
+            }
+        </script>
+    </head>
+    <body>
+       <div class="LogoP"><img src="images/WhatsApp_Image_2023-09-22_at_1.14.12_PM-removebg-preview.png" alt=""></div>
+       <div class="BienvenidaGeneral">
+                <h1 id="Bienvenido">¡Bienvenida a TALKIA!</h1>
+                <h2 id="Registrarse">Regístrate</h2>
+                  <div class="b1">
+                    <input id="campo1" type="text" placeholder="Nombre"></input >
+                    <br>
+                    <input id="campo2" type="text" placeholder="Usuario"></input >
+                    <br>
+                    <input id="campo3" type="email" placeholder="Ingresa Correo" required></input >
+                    <br>
+                    <input id="campo4" type="password" placeholder="Contraseña Nueva"></input >
+                    <br>
+                    <input id="campo5" type="password" placeholder="Repita la Contraseña"></input >
+                </div>
+                </p> 
+                <input id= "b2" type="submit" onclick="validarFormulario()" value="Aceptar" >
+       </div>
+    </body>
+</html>

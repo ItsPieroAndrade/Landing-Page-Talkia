@@ -57,7 +57,7 @@ body{
 
 main{
     display: flex;
-    height: 120vh;
+    height: 190vh;
     justify-content: space-evenly;
     padding-top: 110px;
     flex-direction: column;
